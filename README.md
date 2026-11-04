@@ -1,6 +1,6 @@
-# Project_Template_ComputerScience2
+# Computer Science 2
 
-# 📊 Data Insights Dashboard Project
+## 📊 Data Insights Dashboard Project
 
 This repository serves as a STARTER TEMPLATE for the Yearlong Programming Project.
 
