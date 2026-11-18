@@ -3,7 +3,7 @@
 ## Philippine Biodiversity Taxonomic Finder 
 (with IUCN Conservation Status Integration)
 
-## → Description
+## → Project Description
 The Philippine Biodiversity Taxonomic Finder is an interactive Python 3 console application designed to help students, researchers, and nature enthusiasts explore endemic Philippine wildlife. The program allows users to select an animal from an organized menu, view its complete scientific classification (taxonomy), and check its official International Union for Conservation of Nature (IUCN) conservation status.
 
 ## → Problem Statement
@@ -20,6 +20,16 @@ Many students and wildlife advocates lack a centralized, quick-access digital to
 • Robust Input Validation & Error Handling: Validates user choices to ensure inputs are numeric, checks that index values fall within valid boundaries, and handles invalid entries gracefully without crashing. 
 
 • Modular Program Flow: Utilizes user-defined functions with parameters (display_biodiversity_info) and continuous while loops for a smooth, interactive user experience.
+
+## Description of Data (Persistent / Structured)
+The application stores its core data within a structured Python dictionary (ph_animals), which acts as an internal database containing key-value pairs for each endemic species.
+
+Each dictionary entry stores persistent data fields:
+
+1) Animal Key / Identifier: String key used for dictionary lookups (e.g., "philippine eagle").
+2) Common Name: The recognized English/Local name of the species (string). 
+3) Taxonomy: Hierarchical biological classification including Kingdom, Phylum, Class, Order, Family, Genus, and Species (string).  
+4) IUCN Status: Official conservation rating determined by the IUCN Red List (string). 
 
 ## 📂 Repository Structure
 - `/data` → Contains sample JSON datasets you can choose from.
