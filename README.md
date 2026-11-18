@@ -1,15 +1,18 @@
-# Computer Science 2
+# 📌 Computer Science 2 - Drafted Project Proposal
 
-## Philippine Biodiversity Taxonomic Finder 
-(with IUCN Conservation Status Integration)
+## 📝 Project Title
+Philippine Biodiversity Taxonomic Finder (with IUCN Conservation Status Integration)
 
-## → Project Description
+## 📃 Project Description
 The Philippine Biodiversity Taxonomic Finder is an interactive Python 3 console application designed to help students, researchers, and nature enthusiasts explore endemic Philippine wildlife. The program allows users to select an animal from an organized menu, view its complete scientific classification (taxonomy), and check its official International Union for Conservation of Nature (IUCN) conservation status.
 
-## → Problem Statement
+## 🔍 Problem Statement
 Many students and wildlife advocates lack a centralized, quick-access digital tool to look up structured scientific information—such as hierarchical taxonomy and extinction risk—specifically tailored to endemic Philippine biodiversity. Scattered data sources make learning about local endangered species inefficient. This program addresses the problem by providing a modular, menu-driven taxonomic lookup system that instantly retrieves accurate scientific and conservation data for endemic Philippine animals.
 
-## → Outline of Features
+## 🎯 Project Objectives
+---
+
+## ⚙️ Outline of Planned Features
 
 • Dynamic Menu Generation: Automatically compiles and traverses the animal database to display a numbered list of available endemic species using a for loop.
 
@@ -21,15 +24,32 @@ Many students and wildlife advocates lack a centralized, quick-access digital to
 
 • Modular Program Flow: Utilizes user-defined functions with parameters (display_biodiversity_info) and continuous while loops for a smooth, interactive user experience.
 
-## Description of Data (Persistent / Structured)
-The application stores its core data within a structured Python dictionary (ph_animals), which acts as an internal database containing key-value pairs for each endemic species.
+## ⌨️ Planned Inputs and Outputs 
+---
+
+## 🗂️ Description of Data (Persistent / Structured)
+The program stores its core data within a structured Python dictionary (ph_animals), which acts as an internal database containing key-value pairs for each endemic species.
 
 Each dictionary entry stores persistent data fields:
 
 1) Animal Key / Identifier: String key used for dictionary lookups (e.g., "philippine eagle").
 2) Common Name: The recognized English/Local name of the species (string). 
 3) Taxonomy: Hierarchical biological classification including Kingdom, Phylum, Class, Order, Family, Genus, and Species (string).  
-4) IUCN Status: Official conservation rating determined by the IUCN Red List (string). 
+4) IUCN Status: Official conservation rating determined by the IUCN Red List (string).
+
+## 🧠 Logic Plan  
+--- 
+
+### Pseudocode  
+Write your steps in plain English. Example:  
+Load JSON file
+Display menu of features
+If user chooses "1", compute average grade per student
+If user chooses "2", list all borrowed books
+Repeat until user exits program
+
+### Flowchart  
+Attach or draw a flowchart showing how the program will work.
 
 ## 📂 Repository Structure
 - `/data` → Contains sample JSON datasets you can choose from.
