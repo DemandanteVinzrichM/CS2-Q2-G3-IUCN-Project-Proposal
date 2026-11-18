@@ -1,8 +1,7 @@
 # Computer Science 2
 
-## 📊 Data Insights Dashboard Project
-
-This repository serves as a STARTER TEMPLATE for the Yearlong Programming Project.
+## Philippine Biodiversity Taxonomic Finder 
+(with IUCN Conservation Status Integration)
 
 ## 📂 Repository Structure
 - `/data` → Contains sample JSON datasets you can choose from.
@@ -14,9 +13,3 @@ This repository serves as a STARTER TEMPLATE for the Yearlong Programming Projec
 2. Write your Project Proposal using the provided template (`/docs/proposal_template.md`).
 3. Update this `README.md` to describe your project idea.
 4. Commit and push your changes to GitHub.
-
-##  Getting Started
-- Fork or clone this repository.
-- Open the datasets in the `/data` folder to explore the contents.
-- Follow the proposal template to draft your plan.
-
