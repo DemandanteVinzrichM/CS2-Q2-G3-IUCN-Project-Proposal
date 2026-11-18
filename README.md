@@ -9,6 +9,18 @@ The Philippine Biodiversity Taxonomic Finder is an interactive Python 3 console 
 ## → Problem Statement
 Many students and wildlife advocates lack a centralized, quick-access digital tool to look up structured scientific information—such as hierarchical taxonomy and extinction risk—specifically tailored to endemic Philippine biodiversity. Scattered data sources make learning about local endangered species inefficient. This program addresses the problem by providing a modular, menu-driven taxonomic lookup system that instantly retrieves accurate scientific and conservation data for endemic Philippine animals.
 
+## → Outline of Features
+
+• Dynamic Menu Generation: Automatically compiles and traverses the animal database to display a numbered list of available endemic species using a for loop.
+
+• Detailed Taxonomic Lookup: Retrieves and displays rigorous scientific classification strings ranging from Kingdom down to Species (Domain → Kingdom → Phylum → Class → Order / Suborder → Family → Genus → Species / Subspecies).
+
+• IUCN Conservation Status Tracker: Instantly reveals the extinction risk category (e.g., Critically Endangered, Endangered, Vulnerable) for each selected species.
+
+• Robust Input Validation & Error Handling: Validates user choices to ensure inputs are numeric, checks that index values fall within valid boundaries, and handles invalid entries gracefully without crashing. 
+
+• Modular Program Flow: Utilizes user-defined functions with parameters (display_biodiversity_info) and continuous while loops for a smooth, interactive user experience.
+
 ## 📂 Repository Structure
 - `/data` → Contains sample JSON datasets you can choose from.
 - `/docs` → Place your project proposal and related documentation here.
