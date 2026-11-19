@@ -29,7 +29,18 @@ Many students and wildlife advocates lack a centralized, quick-access digital to
 • Modular Program Flow: Utilizes user-defined functions with parameters (display_biodiversity_info) and continuous while loops for a smooth, interactive user experience.
 
 ## ⌨️ Planned Inputs and Outputs 
----
+• Inputs
+
+→ The user inputs a number corresponding to their chosen animal from the displayed menu (e.g., 1 through 11), or enters 0 / "exit" to quit the program.
+
+• Outputs
+→ A dynamically generated numbered list of available endemic Philippine species.
+
+→ Formatted text output displaying the organism's common name, complete scientific taxonomy string, and official IUCN conservation status.
+
+→ Prompt responses and error notifications for invalid, non-digit, or out-of-range inputs.
+
+→ Lastly, a courteous closing message displayed when the user terminates the program.
 
 ## 🗂️ Description of Data (Persistent / Structured)
 The program stores its core data within a structured Python dictionary (ph_animals), which acts as an internal database containing key-value pairs for each endemic species.
