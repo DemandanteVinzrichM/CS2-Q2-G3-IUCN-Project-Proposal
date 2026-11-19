@@ -91,8 +91,14 @@ START main loop (while True)
 
 END program
 
-### Flowchart  
-Attach or draw a flowchart showing how the program will work.
+### Flowchart (Description) 
+1) Start Node: The program initializes and enters the main application function.
+2) Menu Display Phase: The system extracts dictionary keys, loops through them, and prints a numbered menu of Philippine wildlife.
+3) Input & Validation Decision:
+The program waits for user input.
+If the user enters 0 or "exit", the loop terminates and the program ends.
+If the input is a valid number within the index range, it calls the display function, outputs the detailed taxonomy and IUCN status, and loops back to the menu.
+If the input is invalid or out of bounds, an error message is shown, and the program loops back to prompt the user again without crashing.
 
 ## 📂 Repository Structure
 - `/data` → Contains sample JSON datasets you can choose from.
