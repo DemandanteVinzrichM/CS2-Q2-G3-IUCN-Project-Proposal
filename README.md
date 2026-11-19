@@ -52,16 +52,28 @@ Each dictionary entry stores persistent data fields:
 3) Taxonomy: Hierarchical biological classification including Kingdom, Phylum, Class, Order, Family, Genus, and Species (string).  
 4) IUCN Status: Official conservation rating determined by the IUCN Red List (string).
 
-## 🧠 Logic Plan  
---- 
+## 🧠 Logic Plan 
 
-### Pseudocode  
-Write your steps in plain English. Example:  
-Load JSON file
-Display menu of features
-If user chooses "1", compute average grade per student
-If user chooses "2", list all borrowed books
-Repeat until user exits program
+### 📋 Pseudocode  
+START program
+Initialize dictionary database (ph_animals) with endemic Philippine species data
+Define function display_biodiversity_info(animal_key, database)
+START main loop (while True)
+    Display application header and available animals menu using a for loop over dictionary keys
+    Prompt user for input choice (integer or exit command)
+    IF choice equals "0" or "exit":
+        Display exit message
+        BREAK loop
+    ELSE IF choice is a valid digit:
+        Convert choice to a zero-based list index
+        IF index is within valid bounds:
+            Retrieve selected animal key
+            Call display_biodiversity_info() to output name, taxonomy, and IUCN status
+        ELSE:
+            Display out-of-range error message
+    ELSE:
+        Display invalid input error message
+END program
 
 ### Flowchart  
 Attach or draw a flowchart showing how the program will work.
