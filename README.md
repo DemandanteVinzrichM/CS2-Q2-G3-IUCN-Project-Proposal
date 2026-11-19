@@ -56,23 +56,39 @@ Each dictionary entry stores persistent data fields:
 
 ### 📋 Pseudocode  
 START program
+
 Initialize dictionary database (ph_animals) with endemic Philippine species data
+
 Define function display_biodiversity_info(animal_key, database)
+
 START main loop (while True)
+    
     Display application header and available animals menu using a for loop over dictionary keys
+    
     Prompt user for input choice (integer or exit command)
+    
     IF choice equals "0" or "exit":
+        
         Display exit message
+        
         BREAK loop
+    
     ELSE IF choice is a valid digit:
+        
         Convert choice to a zero-based list index
+        
         IF index is within valid bounds:
+            
             Retrieve selected animal key
+            
             Call display_biodiversity_info() to output name, taxonomy, and IUCN status
+        
         ELSE:
             Display out-of-range error message
+    
     ELSE:
         Display invalid input error message
+
 END program
 
 ### Flowchart  
