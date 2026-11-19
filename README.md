@@ -10,7 +10,9 @@ The Philippine Biodiversity Taxonomic Finder is an interactive Python 3 console 
 Many students and wildlife advocates lack a centralized, quick-access digital tool to look up structured scientific information—such as hierarchical taxonomy and extinction risk—specifically tailored to endemic Philippine biodiversity. Scattered data sources make learning about local endangered species inefficient. This program addresses the problem by providing a modular, menu-driven taxonomic lookup system that instantly retrieves accurate scientific and conservation data for endemic Philippine animals.
 
 ## 🎯 Project Objectives
----
+• Objective 1: To organize and present structured taxonomic and conservation data for endemic Philippine wildlife.
+• Objective 2: To help users gain meaningful insights into animal classification (ranging from Kingdom down to Species) and official IUCN extinction risk categories.
+• Objective 3: To practice core Python 3 programming concepts including dictionary data structures, user-defined functions with parameters, iterative control loops (while and for), and robust input validation.
 
 ## ⚙️ Outline of Planned Features
 
