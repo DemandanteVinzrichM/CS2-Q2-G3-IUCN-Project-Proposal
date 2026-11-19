@@ -11,7 +11,9 @@ Many students and wildlife advocates lack a centralized, quick-access digital to
 
 ## 🎯 Project Objectives
 • Objective 1: To organize and present structured taxonomic and conservation data for endemic Philippine wildlife.
+
 • Objective 2: To help users gain meaningful insights into animal classification (ranging from Kingdom down to Species) and official IUCN extinction risk categories.
+
 • Objective 3: To practice core Python 3 programming concepts including dictionary data structures, user-defined functions with parameters, iterative control loops (while and for), and robust input validation.
 
 ## ⚙️ Outline of Planned Features
