@@ -115,7 +115,7 @@ def main():
                 )
         else:
             print("\nError: Invalid input. Please enter a valid number from the menu.")
-
+print("idol sir jess cheers happy belated birthday idol")
 
 # Running the main program loop
 if __name__ == "__main__":
