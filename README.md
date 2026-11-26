@@ -34,6 +34,7 @@ Many students and wildlife advocates lack a centralized, quick-access digital to
 → The user inputs a number corresponding to their chosen animal from the displayed menu (e.g., 1 through 11), or enters 0 / "exit" to quit the program.
 
 • Outputs
+
 → A dynamically generated numbered list of available endemic Philippine species.
 
 → Formatted text output displaying the organism's common name, complete scientific taxonomy string, and official IUCN conservation status.
