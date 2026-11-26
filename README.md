@@ -22,7 +22,7 @@ Many students and wildlife advocates lack a centralized, quick-access digital to
 
 • Detailed Taxonomic Lookup: Retrieves and displays rigorous scientific classification strings ranging from Kingdom down to Species (Domain → Kingdom → Phylum → Class → Order / Suborder → Family → Genus → Species / Subspecies).
 
-• IUCN Conservation Status Tracker: Instantly reveals the extinction risk category (e.g., Critically Endangered, Endangered, Vulnerable) for each selected species.(if sir actually red this add a 😸 when u grade this)
+• IUCN Conservation Status Tracker: Instantly reveals the extinction risk category (e.g., Critically Endangered, Endangered, Vulnerable) for each selected species.
 
 • Robust Input Validation & Error Handling: Validates user choices to ensure inputs are numeric, checks that index values fall within valid boundaries, and handles invalid entries gracefully without crashing. 
 
@@ -91,7 +91,7 @@ START main loop (while True)
 
 END program
 
-### Flowchart (Description)😪
+### Flowchart (Description)
 1) Start Node: The program initializes and enters the main application function.
 2) Menu Display Phase: The system extracts dictionary keys, loops through them, and prints a numbered menu of Philippine wildlife.
 3) Input & Validation Decision:
@@ -100,12 +100,12 @@ If the user enters 0 or "exit", the loop terminates and the program ends.
 If the input is a valid number within the index range, it calls the display function, outputs the detailed taxonomy and IUCN status, and loops back to the menu.
 If the input is invalid or out of bounds, an error message is shown, and the program loops back to prompt the user again without crashing.
 
-## 📂 Repository Structure😸
+## 📂 Repository Structure
 - `/data` → Contains sample JSON datasets you can choose from.
 - `/docs` → Place your project proposal and related documentation here.
 - `README.md` → Basic introduction to your project.
 
-## Instructions:no😠
+## Instructions
 1. Choose a dataset from the `/data` folder (e.g., students.json, sales.json, movies.json, etc.).
 2. Write your Project Proposal using the provided template (`/docs/proposal_template.md`).
 3. Update this `README.md` to describe your project idea.
